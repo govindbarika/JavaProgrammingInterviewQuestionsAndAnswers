@@ -18,8 +18,8 @@ public class HashMapWithNullKeys {
         hashMap.put(3, "Three");
         hashMap.put(3, "Four");
 
-        System.out.println("Null key value is " + hashMap.get(null));
-        System.out.println("Null key value is " + hashMap.get(3));
+        System.out.println("Null key value is " + hashMap.get(null));//        Null key value is Hari
+        System.out.println("Duplicate  key 3 value is " + hashMap.get(3));//        Duplicate key 3 value is Four
 
         Set<String> set = new HashSet();
         set.add("1");
@@ -27,7 +27,8 @@ public class HashMapWithNullKeys {
         set.add(null);
 
         System.out.println("Set values : " + set.toString());
-
+//output is :
+//        Set values : [null, 1]
 
 
     }

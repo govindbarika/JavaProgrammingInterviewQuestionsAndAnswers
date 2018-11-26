@@ -70,4 +70,16 @@ class Printer {
         notifyAll();
     }
 
+    //output is :
+  /*  Odd:1
+    Even:2
+    Odd:3
+    Even:4
+    Odd:5
+    Even:6
+    Odd:7
+    Even:8
+    Odd:9
+    Even:10*/
+
 }

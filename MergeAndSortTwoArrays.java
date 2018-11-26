@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class MergeAndSortTwoArrays {
 
     public static void main(String[] args) {
-        int[] a = {};//{3,5,2,8, 10,200,40,55,2000};
-        int[] b = {};//{7,1,6,20,60};
+        int[] a = {3,5,2,8, 10,200,40,55,2000};
+        int[] b = {7,1,6,20,60};
         mergeTwoArrays(a,b);
     }
 
@@ -34,6 +34,7 @@ public class MergeAndSortTwoArrays {
                 }
             }
         }
-        System.out.println(Arrays.toString(c));
+        System.out.println(Arrays.toString(c));//[1, 2, 3, 5, 6, 7, 8, 10, 20, 40, 55, 60, 200, 2000]
+
     }
 }

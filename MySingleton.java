@@ -26,6 +26,6 @@ public class MySingleton {
         MySingleton ms = getInstance();
         MySingleton ms1 = getInstance();
         ms.testMe();
-        System.out.println(ms==ms1);
+        System.out.println(ms==ms1);//true
     }
 }

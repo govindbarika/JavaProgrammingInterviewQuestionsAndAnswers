@@ -25,11 +25,11 @@ public class MaxRepeatedWordInASentence {
         System.out.println(list.get(0));
 */
         System.out.println("----------------");
-        System.out.println(map);
+        System.out.println(map);//{testing=3, This=1, is=5, program=2}
 
         map.entrySet().stream()
                       .sorted((e1, e2) ->e2.getValue().compareTo(e1.getValue()))//Map.Entry.comparingByValue() Ascending(Also Map.Entry.comparingByKey() is there)
                       .limit(1)//.skip(map.size()-1)
-                      .forEach(e -> System.out.println(e.getKey()));
+                      .forEach(e -> System.out.println(e.getKey()));//is
     }
 }
