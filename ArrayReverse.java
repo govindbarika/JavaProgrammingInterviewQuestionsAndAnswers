@@ -3,6 +3,7 @@ package com.example.demo;
 import com.sun.deploy.net.HttpResponse;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class ArrayReverse {
 
@@ -12,6 +13,7 @@ public class ArrayReverse {
     }
 
     public static void reverseArray(int[] arr){
+
         int middle = arr.length/2;
         int j = arr.length-1;
         //if(arr.length>2) throw new CustomException("Hey maintain Array with two alues");

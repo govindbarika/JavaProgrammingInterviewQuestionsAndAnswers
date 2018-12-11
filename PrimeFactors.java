@@ -1,10 +1,12 @@
 package com.example.demo;
 import java.sql.SQLOutput;
+import java.util.Map;
 import java.util.Scanner;
 
 public class PrimeFactors {
     public static void main(String args[]){
         int number;
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number ::");
         number = sc.nextInt();
